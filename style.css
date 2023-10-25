@@ -1,0 +1,72 @@
+@media(max-width:600px){div {font-size: 2rem}}
+
+div {
+    width: 100%;
+
+}
+h1{
+    background-color: aquamarine;
+}
+
+.main{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Girassol', serif; color: purple ;
+position: relative;}
+
+.box{position: relative;width: 50%;border: 10px solid palevioletred; padding: 10px;margin: 20px}
+
+#clowntitle>h1 {
+    font-family: 'Monoton', sans-serif;
+    color: rgb(160, 137, 81);
+    
+    background-color: rgb(109, 228, 228);
+}
+
+#clownstory {
+    flex-direction: column;
+}
+
+#box1 {
+   
+}
+
+#box2{
+    border: 10px solid rgb(135, 182, 89);
+    position: relative;
+}
+
+#box3{
+    border: 10px solid rgb(233, 233, 30);
+    position: relative;
+}
+
+#logo{width: 100%;
+    display:inline-block
+    position: absolute;
+    right: 0%;
+    border-radius: 50px;
+    float: right;
+    margin: 10px;
+}
+
+#Krusty {
+    position: fixed;
+    top: 20%;
+    right: 15%;
+    height: 100px;
+    z-index: -1;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#fact{
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+}
