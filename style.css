@@ -1,0 +1,56 @@
+h1{
+    background-color: rosybrown;
+}
+
+.main{
+    display: inline-block;
+    width: 100%;
+    font:bold; font-size: xx-large; font-family: Arial, Helvetica, sans-serif; color: aquamarine;
+position: relative;}
+
+.box{position: relative;width: 50%;border: 10px solid palevioletred; padding: 10px;margin: 20px}
+
+#clowntitle>h1 {
+    font-family: 'Monoton', sans-serif;
+    color: rgb(160, 137, 81);
+    
+    background-color: rgb(109, 228, 228);
+}
+
+#box1 {
+   
+}
+
+#box2{
+    border: 10px solid rgb(135, 182, 89);
+    position: relative;
+}
+
+#box3{
+    border: 10px solid rgb(233, 233, 30);
+    position: relative;
+}
+
+#logo{width: 100%;
+    display:inline-block
+    position: absolute;
+    right: 0%;
+    border-radius: 50px;
+    float: right;
+}
+
+#Krusty {
+    position: fixed;
+    top: 20%;
+    right: 15%;
+    height: 100px;
+    z-index: -1;
+}
+
+#title {
+    display: flex;
+}
+
+#fact{
+    display: inline-block;
+}
